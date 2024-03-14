@@ -31,9 +31,9 @@ jobs:
         run: |
           python -c "import sys; print(sys.version)"
 
-      # # 運行測試
-      # - name: Run Tests
-      #   run: | 
-      #     cd tests
-      #     bash tesh.sh
+      # 運行測試
+      - name: Run Tests
+        run: | 
+          cd tests
+          bash tesh.sh
       
