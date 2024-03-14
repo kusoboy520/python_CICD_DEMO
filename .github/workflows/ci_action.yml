@@ -34,6 +34,5 @@ jobs:
       # 運行測試
       - name: Run Tests
         run: | 
-          cd tests
-          bash tesh.sh
+          pytest tests/test_area.py -v -s
       
