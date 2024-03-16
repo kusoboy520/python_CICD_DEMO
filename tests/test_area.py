@@ -1,6 +1,6 @@
 import sys
 sys.path.append('../')
-from CICD.main import calculate_area_square
+from src.main import calculate_area_square
 import pytest
 
 def test_clculate_area_square():
